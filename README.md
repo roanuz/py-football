@@ -16,7 +16,7 @@ py-football library for Python using Roanuz Football API's.  Easy to install and
 
     //RcaStorageHandler
     import pyfootball
-    handler = pyfootball.RcaStorageHandler()
+    handler = pyfootball.RfaStorageHandler()
     start = pyfootball.RfaApp(access_key="Your_AccessKey", \
                             secret_key="Your_SecretKey", \
                             app_id="Your_APP_ID", \
@@ -37,8 +37,8 @@ py-football library for Python using Roanuz Football API's.  Easy to install and
 
     // After Completing Authentication you can successfully access the API's.
 
-    start.get_match(<match_key>) //Return Match information in json format
-    start.get_tournament(<tournament_key>) //Return tournament information in json format
+    start.get_match("match_key") //Return Match information in json format
+    start.get_tournament("tournament_key") //Return tournament information in json format
     For more free API's visit : https://www.footballapi.com/docs/freeapi/
     ```
 
