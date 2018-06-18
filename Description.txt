@@ -1,0 +1,22 @@
+----------------------------------------------------
+Roanuz Softwares Private Limited
+----------------------------------------------------
+
+py-football library for Roanuz Football API
+----------------------------------------------------
+        Its a python library to get football scores,schedule and statistics from [Roanuz Football](https://www.footballapi.com).Its easy to access with the access key,secret key and app id.
+
+Changes List:
+---------------------------
+    1.0.1:
+       1. Initial Release
+
+Getting started:
+----------------------------
+    1. Install py-football using `pip install py-football`
+
+    2. Create a Football API App here [My APP Login](https://www.footballapi.com/login/?next=/apps/)
+
+    3. Import py-cricket and create Authentication using 'RcaFileStorageHandler' or 'RcaStorageHandler' approach.
+
+To check all our API's please visit : https://github.com/roanuz/py-football
