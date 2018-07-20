@@ -254,7 +254,7 @@ class RfaApp():
         response = self.get_response(tournament_player_stats_url)
         return response
 
-    def get_schedule(self, month=None):
+    def get_schedule(self, date=None):
         """
         Calling Schedule API
 
@@ -265,8 +265,8 @@ class RfaApp():
         Schedule of the given month
         """
         params = {}
-        if month:
-            params['month'] = month
+        if date:
+            params['date'] = date
 
         schedule_url = self.api_path + 'schedule/'
         response = self.get_response(schedule_url, params)

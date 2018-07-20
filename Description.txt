@@ -9,6 +9,8 @@ py-football library for Roanuz Football API
 Changes List:
 ---------------------------
     1.0.1:
+       2. Fixed Bugs
+    1.0.0:
        1. Initial Release
 
 Getting started:
