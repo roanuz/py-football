@@ -212,7 +212,7 @@ class RfaApp():
         Tournament round data
         """
 
-        tournament_round_url = self.api_path + 'tournament/' + str(tournament_key) + '/round/' + str(round_key) + '/'
+        tournament_round_url = self.api_path + 'tournament/' + str(tournament_key) + '/round-detail/' + str(round_key) + '/'
         response = self.get_response(tournament_round_url)
         return response
 
