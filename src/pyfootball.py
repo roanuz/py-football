@@ -331,3 +331,41 @@ class RfaApp():
         tournament_standings_url = self.api_path + 'tournament/' + str(tournament_key) + '/standings/'
         response = self.get_response(tournament_standings_url)
         return response
+
+    def get_fantasy_match_credits(self, match_key, model="RZ-C-A100"):
+        """
+        Calling Fantasy Match Credits API
+
+        Args:
+            model_key: Credits Model Key
+            Default model_key is RZ-C-A100
+
+        Response:
+        Fantasy Credits of the Induvidual Players in the Match Squad
+        """
+        params = {
+            "model": model
+        }
+
+        fantasy_match_credits_url = self.api_path + 'fantasy-match-credits/' + str(match_key) + '/'
+        response = self.get_response(fantasy_match_credits_url, params=params)
+        return response
+
+    def get_fantasy_match_points(self, match_key, model="RZ-C-A100"):
+        """
+        Calling Fantasy Match Points API
+
+        Args:
+            model_key: Points Model Key
+            Default model_key is RZ-C-A100
+
+        Response:
+        Fantasy Match Points of the Induvidual Players in the Match Squad
+        """
+        params = {
+            "model": model
+        }
+
+        fantasy_match_points_url = self.api_path + 'fantasy-match-points/' + str(match_key) + '/'
+        response = self.get_response(fantasy_match_points_url, params=params)
+        return response

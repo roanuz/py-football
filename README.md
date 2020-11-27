@@ -58,6 +58,8 @@ py-football library for Python using Roanuz Football API's.  Easy to install and
 * [Round Matches API](https://www.footballapi.com/docs/Core-API/Round-Matches-API/)  start.get_round_matches("tournament_key", "round_key")
 * [Recent Tournament Matches API](https://www.footballapi.com/docs/Core-API/Recent-Tournament-Matches-API/)  start.get_recent_tournament_matches("tournament_key")
 * [Tournament Standings API](https://www.footballapi.com/docs/Core-API/Tournament-Standings-API/)  start.get_tournament_standings("tournament_key")
+* [Fantasy Match Points API](https://footballapi.com/docs/Fantasy-API/Fantasy-Match-Points-API/)  start.get_fantasy_match_points("match_key", "model")
+* [Fantasy Credit Points API](https://footballapi.com/docs/Fantasy-API/Fantasy-Credit-Points-API/)  start.get_fantasy_match_credits("match_key", "model")
 
  ## Roanuz Football API 
 	This Library uses the Roanuz Football API for fetching football scores and stats.
