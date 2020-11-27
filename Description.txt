@@ -8,6 +8,8 @@ py-football library for Roanuz Football API
 
 Changes List:
 ---------------------------
+    1.0.3:
+       4. Supported Fantasy APIs for Football
     1.0.2:
        3. Fixed Bugs
     1.0.1:
