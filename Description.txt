@@ -8,12 +8,14 @@ py-football library for Roanuz Football API
 
 Changes List:
 ---------------------------
+    1.0.4:
+       1.Updated urllib3 version to fix the warmings in Python 3.10
     1.0.3:
-       4. Supported Fantasy APIs for Football
+       1. Supported Fantasy APIs for Football
     1.0.2:
-       3. Fixed Bugs
+       1. Fixed Bugs
     1.0.1:
-       2. Fixed Bugs
+       1. Fixed Bugs
     1.0.0:
        1. Initial Release
 
